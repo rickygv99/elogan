@@ -1,1 +1,7 @@
-# elogan
+# ELOGan
+
+The game of chess has long been a fertile ground for testing and advancing artificial intelligence (AI) techniques. In recent times, advances in deep learning techniques, such as reinforcement learning and neural networks, have led to significant breakthroughs in AI's ability to play chess at a superhuman level\cite{ensmenger}. Today, some of the best AI chess programs can defeat even the best human players, and AI is also being used to analyze games, develop new strategies, and help people learn and improve at the game. However, while AIs have been created to play chess well, it has proven far more difficult to create AIs to play chess at varying ELO levels.
+
+Creating AI that can play chess at any ELO level is important because it provides a more accessible and challenging opponent for players of all skill levels. By simulating different skill levels, programmers can create more engaging and challenging games that can adapt to the skill level of different players. This can also help to improve the overall quality of chess software, as more sophisticated AI can help to identify new strategies and approaches that can be applied to human gameplay.
+
+I present an artificial intelligence algorithm which is capable of playing chess at any ELO level. For a given chess move, a generative adversarial network (GAN) is used to predict the benefit of the given move. Style transfer techniques are used to adjust the benefits of the given moves based on moves undertaken by players of the desired ELO levels. This resulting generator neural network is used as the evaluation function within a negamax reinforcement learning algorithm with a depth of three.

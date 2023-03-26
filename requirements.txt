@@ -1,0 +1,5 @@
+keras
+numpy
+pandas
+python-chess
+torch
